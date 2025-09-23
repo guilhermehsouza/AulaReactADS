@@ -1,0 +1,50 @@
+body
+{
+    margin : 0;
+    padding: 0;
+}
+
+h1
+{
+    text-align: center;;
+}
+
+.conteudo
+{
+    width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border : 1px solid rgb(96,0,0);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(96,0,0);
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.menu
+{
+    width: 100vdh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(96,0,0);
+    color : white;
+    padding: 10px 20px;
+}
+
+.menu a{
+    color : white;
+    margin-left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+input[type="text"], input[type="number"], select
+{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(96,0,0);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
