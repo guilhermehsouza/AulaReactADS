@@ -44,7 +44,7 @@ input[type=text], input[type=number]
     font-size: 20px;
 }
 
-input[type=button]
+input[type=button], input[type=submit]
 {
     width: 200px;
     padding: 10px;
